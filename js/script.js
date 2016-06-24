@@ -7,6 +7,7 @@ window.onload = function(){
 	//遍历所有的标签页
 	for (var i = 0; i < tits.length; i++) {
 		tits[i].id = i;
+		
 		tits[i].onclick = function(){
 			//点击后清除其他 li和div 的样式
 			for (var j = 0; j < tits.length; j++) {
